@@ -1,0 +1,14 @@
+UiPath.Core.InvalidUiElementException: UiElement°¡ ´õ ÀÌ»ó À¯È¿ÇÏÁö ¾Ê½À´Ï´Ù. ---> System.Runtime.InteropServices.COMException: À¯È¿ÇÏÁö ¾ÊÀº UI ³ëµåÀÔ´Ï´Ù.
+   À§Ä¡: UiPath.UiNodeClass.FindFirst(UiFindScope scope, String nodeID)
+   À§Ä¡: UiPath.Core.UiElement.FindFirst(FindScope scope, Selector selector, IPlaceholderResolver placeholderResolver)
+   --- ³»ºÎ ¿¹¿Ü ½ºÅÃ ÃßÀûÀÇ ³¡ ---
+   À§Ä¡: UiPath.Core.Activities.ScopeActivity.OnFaulted(NativeActivityFaultContext faultContext, Exception propagatedException, ActivityInstance propagatedFrom)
+   À§Ä¡: System.Activities.Runtime.FaultCallbackWrapper.Invoke(NativeActivityFaultContext faultContext, Exception propagatedException, ActivityInstance propagatedFrom)
+   À§Ä¡: System.Activities.Runtime.FaultCallbackWrapper.FaultWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
+UiPath.Core.InvalidUiElementException: UiElementê°€ ë” ì´ìƒ ìœ íš¨í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤. ---> System.Runtime.InteropServices.COMException: ìœ íš¨í•˜ì§€ ì•Šì€ UI ë…¸ë“œì…ë‹ˆë‹¤.
+   ìœ„ì¹˜: UiPath.UiNodeClass.FindFirst(UiFindScope scope, String nodeID)
+   ìœ„ì¹˜: UiPath.Core.UiElement.FindFirst(FindScope scope, Selector selector, IPlaceholderResolver placeholderResolver)
+   --- ë‚´ë¶€ ì˜ˆì™¸ ìŠ¤íƒ ì¶”ì ì˜ ë ---
+   ìœ„ì¹˜: UiPath.Core.Activities.ScopeActivity.OnFaulted(NativeActivityFaultContext faultContext, Exception propagatedException, ActivityInstance propagatedFrom)
+   ìœ„ì¹˜: System.Activities.Runtime.FaultCallbackWrapper.Invoke(NativeActivityFaultContext faultContext, Exception propagatedException, ActivityInstance propagatedFrom)
+   ìœ„ì¹˜: System.Activities.Runtime.FaultCallbackWrapper.FaultWorkItem.Execute(ActivityExecutor executor, BookmarkManager bookmarkManager)
